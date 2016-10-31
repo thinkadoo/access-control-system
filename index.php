@@ -18,7 +18,7 @@ echo "
 <div class=\"hero-unit\">
     <h1>Welcome ".$user->filter->username." </h1>
     <p>
-        This is a template for a simple website. It includes a user system with signup, login, password recovery and many more. It's a perfect stratup for your projects.
+        This is a template for a simple website. It includes a user system with signup, login, password recovery and many more.
     </p>";
 if(!$user->islg()) {
     echo "<p>
